@@ -6,8 +6,8 @@ for i in s:
         count = count + 1
 r = len(s)
 mod = n % r
-times = n // r
-count = times * count
+rep = n // r
+count = rep * count
 for i in range(mod):
     if s[i] == 'a':
         count = count + 1
