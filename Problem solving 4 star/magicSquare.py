@@ -9,6 +9,8 @@
 # 1,3,7,9 can only take positions east, west, north or south
 
 def formingMagicSquare(s):
+    # each row of magic_mat is a magic matrix itself
+    # and only these 8 combinations are possible to create magic matrix
     magic_mat = [
         [[8, 1, 6], [3, 5, 7], [4, 9, 2]],
         [[6, 1, 8], [7, 5, 3], [2, 9, 4]],
